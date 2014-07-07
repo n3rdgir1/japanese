@@ -13,7 +13,7 @@
  */
 
 .letter .kana {
-  font-color: white;
+  color: white;
 }
 
 .letter > div {
