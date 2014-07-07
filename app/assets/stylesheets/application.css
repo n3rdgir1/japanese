@@ -11,3 +11,18 @@
  *= require_self
  *= require_tree .
  */
+
+.letter .kana {
+  font-color: white;
+}
+
+.letter > div {
+  width: 30%;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.letter {
+  width: 24%;
+  display: inline-block;
+}
