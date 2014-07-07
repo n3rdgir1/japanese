@@ -1,0 +1,25 @@
+<h1>Listing hiraganas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @hiraganas.each do |hiragana| %>
+      <tr>
+        <td><%= link_to 'Show', hiragana %></td>
+        <td><%= link_to 'Edit', edit_hiragana_path(hiragana) %></td>
+        <td><%= link_to 'Destroy', hiragana, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Hiragana', new_hiragana_path %>
