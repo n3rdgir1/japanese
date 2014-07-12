@@ -1,9 +1,4 @@
-%h1
-  Katakana
-  = link_to "Hiragana", hiraganas_path
-- @kanas.each do |kana|
-  .letter
-    .test
-      = kana.letter
-    .kana
-      = kana.katakana
+.answers
+  = render "form"
+.quiz
+  = render "form"

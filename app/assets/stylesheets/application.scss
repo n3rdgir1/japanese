@@ -36,3 +36,17 @@ a {
     display: none;
   }
 }
+
+.answers {
+  page-break-inside: avoid;
+
+  @media screen {
+    display: none;
+  }
+
+  @media print {
+    .letter .kana {
+      color: gray;
+    }
+  }
+}

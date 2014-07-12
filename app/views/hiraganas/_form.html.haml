@@ -1,0 +1,9 @@
+%h1
+  Hiragana
+  = link_to "Katakana", katakanas_path
+- @kanas.each do |kana|
+  .letter
+    .test
+      = kana.letter
+    .kana
+      = kana.hiragana
