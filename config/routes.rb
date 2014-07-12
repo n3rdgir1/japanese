@@ -1,6 +1,5 @@
 Japanese::Application.routes.draw do
-  resources :hiraganas
-  resources :katakanas
+  resources :kanas
 
-  root to: "hiraganas#index"
+  root to: "kanas#index"
 end
