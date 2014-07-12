@@ -23,6 +23,9 @@
 }
 
 .letter {
-  width: 24%;
+  width: 19%;
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
   display: inline-block;
 }
