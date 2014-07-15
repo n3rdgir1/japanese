@@ -81,7 +81,10 @@ kana = [
 ["n"  ,"ん","ン"]
 ]
 
+Kana.delete_all
 kana.each do |letter, hiragana, katakana|
   k = Kana.create(letter: letter, hiragana: hiragana, katakana: katakana)
   puts k
 end
+
+puts kana.count
